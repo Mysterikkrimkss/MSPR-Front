@@ -61,10 +61,10 @@ class _MyHomePageState extends State<MyHomePage> {
             _getTextAccueil(_text),
             Text('$_text', style: TextStyle(fontSize: 30, color: Colors.black),),
             ConstrainedBox(
-            constraints: BoxConstraints.tightFor(width: 250, height: 100),
-            child: ElevatedButton(
-              child: Text('SCAN', style: TextStyle(fontSize: 30),),
-              onPressed: _scan,
+              constraints: BoxConstraints.tightFor(width: 250, height: 100),
+              child: ElevatedButton(
+                child: Text('SCAN', style: TextStyle(fontSize: 30),),
+                onPressed: _scan,
               ),
             ),
           ],
